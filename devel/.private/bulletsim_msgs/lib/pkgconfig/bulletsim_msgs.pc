@@ -1,0 +1,8 @@
+prefix=/home/fabio/mio_ws/devel/.private/bulletsim_msgs
+
+Name: bulletsim_msgs
+Description: Description of bulletsim_msgs
+Version: 0.0.0
+Cflags: -I/home/fabio/mio_ws/devel/.private/bulletsim_msgs/include
+Libs: -L${prefix}/lib 
+Requires: 

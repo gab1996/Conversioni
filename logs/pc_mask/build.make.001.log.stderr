@@ -1,0 +1,13 @@
+[01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:[m[K In member function ‘[01m[Kvoid myclass2::cbfunction(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:40:11:[m[K [01;31m[Kerror: [m[K‘[01m[KVoxelGrid[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   40 |      pcl::[01;31m[KVoxelGrid[m[K<pcl::PCLPointCloud2> sor;
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:40:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   40 |      pcl::VoxelGrid<pcl::PCLPointCloud2[01;31m[K>[m[K sor;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:40:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksor[m[K’ was not declared in this scope
+   40 |      pcl::VoxelGrid<pcl::PCLPointCloud2> [01;31m[Ksor[m[K;
+      |                                          [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/mask.dir/build.make:63: CMakeFiles/mask.dir/src/pcmask.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1406: CMakeFiles/mask.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

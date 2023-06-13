@@ -1,0 +1,12 @@
+[01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:[m[K In member function ‘[01m[Kvoid myclass2::cbfunction(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:35:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpcl::ConditionalRemoval<pcl::PointXYZRGB>::getKeepOrganized(bool)[m[K’
+   35 |   cond_removal.getKeepOrganized(true[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:5[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/filters/conditional_removal.h:636:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool pcl::ConditionalRemoval<PointT>::getKeepOrganized() const [with PointT = pcl::PointXYZRGB][m[K’
+  636 |       [01;36m[KgetKeepOrganized[m[K () const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.10/pcl/filters/conditional_removal.h:636:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/mask.dir/build.make:63: CMakeFiles/mask.dir/src/pcmask.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1406: CMakeFiles/mask.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

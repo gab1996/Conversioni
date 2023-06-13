@@ -1,0 +1,1 @@
+/home/fabio/mio_ws/devel/.private/bulletsim_msgs/share/roseus/ros/bulletsim_msgs/msg/Face.l

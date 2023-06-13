@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target mask[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mask.dir/src/pcmask.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/fabio/mio_ws/devel/.private/pc_mask/lib/pc_mask/mask[0m
+[100%] Built target mask

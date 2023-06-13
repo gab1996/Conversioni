@@ -1,0 +1,33 @@
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_TowelCorners
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_Mesh
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_Initialization
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_Rope
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_TrackedObject
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_OWLPhasespace
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_OWLMarker
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_Box
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_Face
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_GetTable
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_ObjectInit
+[  0%] Built target _bulletsim_msgs_generate_messages_check_deps_PlanTraj
+[ 26%] Built target bulletsim_msgs_generate_messages_nodejs
+[ 39%] Built target bulletsim_msgs_generate_messages_eus
+[ 68%] Built target bulletsim_msgs_generate_messages_lisp
+[ 95%] Built target bulletsim_msgs_generate_messages_cpp
+[100%] Built target bulletsim_msgs_generate_messages_py
+[100%] Built target bulletsim_msgs_generate_messages

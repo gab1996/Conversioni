@@ -1,0 +1,8 @@
+prefix=/home/fabio/mio_ws/devel/.private/conv
+
+Name: conv
+Description: Description of conv
+Version: 0.0.0
+Cflags: -I/home/fabio/mio_ws/src/conv/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp std_msgs visualization_msgs bulletsim_msgs sensor_msgs

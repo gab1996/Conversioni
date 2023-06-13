@@ -1,0 +1,8 @@
+prefix=/home/fabio/mio_ws/install
+
+Name: pc_mask
+Description: Description of pc_mask
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

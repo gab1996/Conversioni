@@ -1,0 +1,1 @@
+/home/fabio/mio_ws/devel/.private/pc_mask/lib/pkgconfig/pc_mask.pc

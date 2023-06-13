@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fabio/mio_ws/devel/.private/bulletsim_msgs/setup.sh

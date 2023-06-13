@@ -1,0 +1,5 @@
+<launch>
+<arg name="file"/>
+<node pkg="rosbag" type="play" name="playback" args="—clock $(arg file)">
+<remap from="/drop/kinect1/points" to="/preprocessor/points"/></node>
+</launch>

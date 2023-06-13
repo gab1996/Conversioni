@@ -1,0 +1,6 @@
+pc_mask
+/home/fabio/mio_ws/devel/.private/pc_mask/cmake.lock /home/fabio/mio_ws/devel/./cmake.lock
+/home/fabio/mio_ws/devel/.private/pc_mask/lib/pc_mask/mask /home/fabio/mio_ws/devel/lib/pc_mask/mask
+/home/fabio/mio_ws/devel/.private/pc_mask/lib/pkgconfig/pc_mask.pc /home/fabio/mio_ws/devel/lib/pkgconfig/pc_mask.pc
+/home/fabio/mio_ws/devel/.private/pc_mask/share/pc_mask/cmake/pc_maskConfig.cmake /home/fabio/mio_ws/devel/share/pc_mask/cmake/pc_maskConfig.cmake
+/home/fabio/mio_ws/devel/.private/pc_mask/share/pc_mask/cmake/pc_maskConfig-version.cmake /home/fabio/mio_ws/devel/share/pc_mask/cmake/pc_maskConfig-version.cmake

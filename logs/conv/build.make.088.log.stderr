@@ -1,0 +1,13 @@
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:[m[K In member function ‘[01m[Kvoid myclass1::cbfunction(const ConstPtr&)[m[K’:
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:39:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+   39 |                 [01;31m[Kelse[m[K{
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:37:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   37 |               if(k==0)[01;36m[K{[m[K
+      |                       [01;36m[K^[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:43:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kk[m[K’ was not declared in this scope
+   43 |               v1.markers[[01;31m[Kk[m[K].color.g = 1.0;
+      |                          [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/cloth_node.dir/build.make:63: CMakeFiles/cloth_node.dir/src/clothnode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:652: CMakeFiles/cloth_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

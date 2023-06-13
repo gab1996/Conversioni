@@ -1,0 +1,32 @@
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ does not name a type
+   66 |         [01;31m[Kpub[m[K.publish(v1);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:[m[K In constructor ‘[01m[Kmyclass1::myclass1(ros::NodeHandle&)[m[K’:
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+   12 |     [01;31m[Kpub[m[K = nh.advertise<visualization_msgs::MarkerArray>("cloth_topic",1000);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_err[m[K’ was not declared in this scope
+   13 |     [01;31m[Kpub_err[m[K = nh.advertise<std_msgs::Float32MultiArray>("erro_topic",1000);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub[m[K’ was not declared in this scope; did you mean ‘[01m[Kfsub[m[K’?
+   14 |     [01;31m[Ksub[m[K = nh.subscribe<bulletsim_msgs::TrackedObject>("/tracker/object",1000,&myclass1::cbfunction,this);
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kfsub[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:[m[K In member function ‘[01m[Kvoid myclass1::cbfunction(const ConstPtr&)[m[K’:
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:20:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kv1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+   20 |    [01;31m[Kv1[m[K.markers.resize(p->mesh.faces.size());
+      |    [01;31m[K^~[m[K
+      |    [32m[Ky1[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:44:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kk[m[K’ was not declared in this scope
+   44 |               v1.markers[[01;31m[Kk[m[K].color.g = 1.0;
+      |                          [01;31m[K^[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:[m[K At global scope:
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:70:35:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kv1[m[K’
+   70 |   visualization_msgs::MarkerArray [01;31m[Kv1[m[K;
+      |                                   [01;31m[K^~[m[K
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:74:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   74 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/cloth_node.dir/build.make:63: CMakeFiles/cloth_node.dir/src/clothnode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:652: CMakeFiles/cloth_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

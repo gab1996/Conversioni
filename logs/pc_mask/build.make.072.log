@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target mask[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mask.dir/src/pcmask.cpp.o[0m
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:1[m[K:
+/usr/include/boost/smart_ptr/shared_ptr.hpp: In instantiation of ‘[01m[Kboost::shared_ptr<T>::shared_ptr(Y*) [with Y = pcl::PackedRGBComparison<pcl::PointXYZRGB>; T = pcl::FieldComparison<pcl::PointXYZRGB>][m[K’:
+[01m[K/home/fabio/mio_ws/src/pc_mask/src/pcmask.cpp:33:153:[m[K   required from here
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:377:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PackedRGBComparison<pcl::PointXYZRGB>*[m[K’ to ‘[01m[Kboost::shared_ptr<pcl::FieldComparison<pcl::PointXYZRGB> >::element_type*[m[K’ {aka ‘[01m[Kpcl::FieldComparison<pcl::PointXYZRGB>*[m[K’} in initialization
+  377 |     explicit shared_ptr( Y * p ): px( [01;31m[Kp[m[K ), pn() // Y must be complete
+      |                                       [01;31m[K^[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[Kpcl::PackedRGBComparison<pcl::PointXYZRGB>*[m[K
+make[2]: *** [CMakeFiles/mask.dir/build.make:63: CMakeFiles/mask.dir/src/pcmask.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1406: CMakeFiles/mask.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

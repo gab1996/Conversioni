@@ -1,0 +1,1 @@
+/home/fabio/mio_ws/devel/.private/pc_mask/share/pc_mask/cmake/pc_maskConfig.cmake

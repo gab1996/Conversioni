@@ -1,0 +1,10 @@
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fabio/mio_ws/src/conv/src/clothnode.cpp:87:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmyclass1[m[K’
+   87 |   ros::Rate(100)
+      |                 [01;31m[K^[m[K
+      |                 [32m[K;[m[K
+   88 |   [32m[Kmyclass1[m[K myclass1(nh);
+      |   [32m[K~~~~~~~~[m[K       
+make[2]: *** [CMakeFiles/cloth_node.dir/build.make:63: CMakeFiles/cloth_node.dir/src/clothnode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:652: CMakeFiles/cloth_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
